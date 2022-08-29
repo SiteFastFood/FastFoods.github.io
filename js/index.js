@@ -18,7 +18,7 @@ header.innerHTML =`
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="l1 navbar-nav align-items-center m-auto mb-2 mb-lg-0 ">
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="home.html">home</a>
+              <a class="nav-link " aria-current="page" href="index.html">home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./menu.html">menu</a>
