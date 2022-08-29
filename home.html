@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,500&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+    .go-to-top {
+        position: fixed;
+        bottom: 16px;
+        right: 20px;
+        border-radius: 2px;
+        padding: 0.5em 1em;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        background: black;
+        opacity: .6;
+    }
+        .go-to-top:before {
+        content: "\2191";
+}
+</style>
+</head>
+<a class="go-to-top" href="#" title="Back to top"></a>
+<body>
+    <a class="go-to-top" href="#" title="Back to top"></a>
+
+    <div id="kolxi">
+        <div>
+            <div class="header mb-5 position-relative">
+                <div class="bg">
+                  <img src="./img/bg.jpg" alt="">
+                </div>
+                <nav class="my-nav navbar navbar-expand-lg">
+                  <div class="container ">
+                    <a class="fs-1 font-f navbar-brand" href="./home.html">feane</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fs-1 fa-solid fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="l1 navbar-nav align-items-center m-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="home.html">home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./menu.html">menu</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./info.html">about</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./inputs.html">book table</a>
+                        </li>
+                      </ul>
+                      <div class="nav-sign d-flex justify-content-center">
+                        <p>
+                            <i class="fa-solid fa-user" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo"></i>
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-shopping-cart"></i>
+                        </p>
+                        <p class="">
+                            <i class="fa-solid fa-search" data-bs-toggle="modal" data-bs-target="#exampleModal2" data-bs-whatever="@mdo"></i>
+                        </p>
+                        <p class="main-btn">order online</p>
+                       </div>
+                    </div>
+                  </div>
+                </nav>
+                <div class="container position-relative">
+                  <div class="">
+                    <div class="header-details col-md-7 col-lg-6 ">
+                      <h1 class="font-f fw-bold mb-3">Fast Food Restaurant</h1>
+                      <p class="mb-4">Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
+                    <div>
+                        <p class="main-btn">order now</p>
+                    </div>
+                  </div>
+                  </div>
+                  <ul class="l2 mb-5 mb-lg-0">
+                    <p class="active"><i class="fa-solid fa-circle"></i></p>
+                    <p><i class="fa-solid fa-circle"></i></p>
+                    <p><i class="fa-solid fa-circle"></i></p>
+                </ul>
+              </div>
+              </div>
+            
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">sign in</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">email:</label>
+                          <input type="email" class="form-control" id="recipient-name" placeholder="example@gmail.com">
+            
+                        </div>
+                        <div class="mb-3">
+                          <label for="message-text" class="col-form-label">password:</label>
+                          <input type="password" class="form-control" id="message-text" placeholder="enter your password"></input>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Sign</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">search</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <label for="recipient-name" class="col-form-label">search:</label>
+                          <input type="text" class="form-control position-relative" id="recipient-name" placeholder="search here">
+                          <!-- <i class="fa-solid fa-search position-absolute searchs" ></i> -->
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Search</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="container offers">
+            <div class="row sold-box">
+                <div class="soldes col-md-12 col-lg-6 mb-5">
+                    <div class="sold d-flex p-4">
+                        <div class="img-box pe-3">
+                            <img src="./img/o1.jpg" alt="">
+                        </div>
+                        <div class="info-box">
+                            <p>Tasty Thursdays</p>
+                            <p class="font-f fs-1">20% <span class="fs-6">off</span></p>
+                            <p class="main-btn text-capitaliz text-center ps-4 pe-4">order now <i class="fa-solid fa-shopping-cart"></i></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="soldes col-md-12 col-lg-6">
+                    <div class="sold d-flex p-4">
+                        <div class="img-box pe-3">
+                            <img src="./img/o1.jpg" alt="">
+                        </div>
+                        <div class="info-box">
+                            <p>Tasty Thursdays</p>
+                            <p class="font-f fs-1">20% <span class="fs-6">off</span></p>
+                            <p class="main-btn text-capitaliz text-center ps-4 pe-4">order now <i class="fa-solid fa-shopping-cart"></i></p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="menu" class="menu container text-center">
+            <div class="d-flex justify-content-center align-items-center">
+                <h1 class="font-f">our menu</h1>
+            </div>
+            <ul class="l3 d-flex flex-wrap justify-content-center">
+                <li><a class="decoration-none active text-capitalize" href="#">all</a></li>
+                <li><a class="decoration-none text-capitalize" href="#">burger</a></li>
+                <li><a class="decoration-none text-capitalize" href="#">pizza</a></li>
+                <li><a class="decoration-none text-capitalize" href="#">pasta</a></li>
+                <li><a class="decoration-none text-capitalize" href="#">fries</a></li>
+            </ul>
+                
+            <div class="boxes container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box ">
+                            <div class="img-box2 d-flex align-items-center justify-content-center">
+                                <img src="./img/f1.png" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h3>Delicious Pizza</h3>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="pt-2 price d-flex align-items-center justify-content-between"><p>$ 20</p> <p><i class="fa-solid fa-shopping-cart"></i></p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box ">
+                            <div class="img-box2 d-flex align-items-center justify-content-center">
+                                <img src="./img/f2.png" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h3>Delicious Pizza</h3>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="pt-2 price d-flex align-items-center justify-content-between"><p>$ 20</p> <p><i class="fa-solid fa-shopping-cart"></i></p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box ">
+                            <div class="img-box2 d-flex align-items-center justify-content-center">
+                                <img src="./img/f3.png" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h3>Delicious Pizza</h3>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="pt-2 price d-flex align-items-center justify-content-between"><p>$ 20</p> <p><i class="fa-solid fa-shopping-cart"></i></p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box ">
+                            <div class="img-box2 d-flex align-items-center justify-content-center">
+                                <img src="./img/f4.png" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h3>Delicious Pizza</h3>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="pt-2 price d-flex align-items-center justify-content-between"><p>$ 20</p> <p><i class="fa-solid fa-shopping-cart"></i></p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box ">
+                            <div class="img-box2 d-flex align-items-center justify-content-center">
+                                <img src="./img/f5.png" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h3>Delicious Pizza</h3>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="pt-2 price d-flex align-items-center justify-content-between"><p>$ 20</p> <p><i class="fa-solid fa-shopping-cart"></i></p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box ">
+                            <div class="img-box2 d-flex align-items-center justify-content-center">
+                                <img src="./img/f6.png" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h3>Delicious Pizza</h3>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="pt-2 price d-flex align-items-center justify-content-between"><p>$ 20</p> <p><i class="fa-solid fa-shopping-cart"></i></p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box ">
+                            <div class="img-box2 d-flex align-items-center justify-content-center">
+                                <img src="./img/f7.png" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h3>Delicious Pizza</h3>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="pt-2 price d-flex align-items-center justify-content-between"><p>$ 20</p> <p><i class="fa-solid fa-shopping-cart"></i></p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box ">
+                            <div class="img-box2 d-flex align-items-center justify-content-center">
+                                <img src="./img/f8.png" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h3>Delicious Pizza</h3>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class="pt-2 price d-flex align-items-center justify-content-between"><p>$ 20</p> <p><i class="fa-solid fa-shopping-cart"></i></p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="box ">
+                            <div class="img-box2 d-flex align-items-center justify-content-center">
+                                <img src="./img/f9.png" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h3>Delicious Pizza</h3>
+                                <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                                <div class=" pt-2 price d-flex align-items-center justify-content-between"><p>$ 20</p> <p><i class="fa-solid fa-shopping-cart"></i></p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-4 pb-5 d-flex align-items-center justify-content-center container mb-5"><p class="mb-5 ps-5 pe-5 main-btn">view more</p></div>
+            </div>
+        </div>
+
+        <div id="info" class=" info ">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="info-box col-md-6 col-lg-6">
+                        <img src="./img/about.png" alt="">
+                    </div>
+                    <div class="info-box col-md-6 col-lg-6">
+                        <h2 class="font-f fs-1">We Are Feane</h2>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
+                        <p class="main-btn">read more</p>
+                    </div>                 
+                </div>
+            </div>`
+        </div>
+
+        <div id="inputs" class="inputs container text-center">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6">
+                    <div class="input-area">
+                        <h1 class="font-f mb-5 d-flex" >Book A Table</h1>
+                        <input type="text" name="" id="" placeholder="Your Name">
+                        <input type="tel" name="" id="" placeholder="Phone Number">
+                        <input type="email" name="" id=""  placeholder="Your Eamil">
+                        <input type="text" name="" id=""placeholder="How many persons?">
+                        <input type="date" name="" id="" >
+                        <p class="main-btn pe-5 ps-5 mt-3">book now</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13590.394869825177!2d-7.99198685!3d31.617453700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee5c99d75ddf%3A0xd8cd38139a6e6fc2!2sKoutoubia%20Marrakech!5e0!3m2!1sfr!2sma!4v1661301147968!5m2!1sfr!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="clients container mb-5">
+            <div class="text-center ">
+                <h1 class="font-f fw-bold fs-1 mb-5">What Says Our Customers</h1>
+            </div>
+            <div class="row mb-5">
+                <div class=" mb-3 col-lg-6">
+                    <div class="p-4 mb-4 client-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt saepe inventore ipsa necessitatibus ducimus eius impedit ea aut dolores harum dolore modi, sit itaque sint vitae minus numquam doloremque.</p>
+                        <h3>moana michell</h3>
+                        <p>magna aliqua</p>
+                    </div>
+                    <div class="client-img">
+                        <i class="fa-solid fa-caret-up"></i>
+                        <img src="./img/client2.jpg" alt="">
+                    </div>
+                </div>
+                <div class=" mb-3 col-lg-6">
+                    <div class="p-4 mb-4 client-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt saepe inventore ipsa necessitatibus ducimus eius impedit ea aut dolores harum dolore modi, sit itaque sint vitae minus numquam doloremque.</p>
+                        <h3>moana michell</h3>
+                        <p>magna aliqua</p>
+                    </div>
+                    <div class="client-img">
+                        <i class="fa-solid fa-caret-up"></i>
+                        <img src="./img/client1.jpg" alt="">
+                    </div>
+                </div>
+                
+            </div>
+            <div class="pagination2 text-center">
+                <i class="me-2 fa-solid fa-angle-left"></i>
+                <i class="ms-2 fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+
+        <div class="footer text-center " id="footer" > 
+            <div class="container  ">
+                <div class="row mb-5 d-flex align-items-center justify-content-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="contact">
+                            <h2 class="mb-4 font-f">contact us</h2>
+                            <div>
+                                <div>
+                                    <p><i class="pe-3 fa-solid fa-location-dot"></i></i>location</p>
+                                </div>
+                                <div>
+                                    <p><i class="pe-3 fa-solid fa-phone"></i>cal +01 123456</p>
+                                </div>
+                                <div>
+                                    <p><i class="pe-3 fa-solid fa-envelope"></i>email@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feane col-md-6 col-lg-4">
+                        <div class="text-center">
+                            <h2 class="mb-4 font-f">feane</h2>
+                            <p class="text-white-50">Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with</p>
+                            <ul class="l4 fs-3 d-flex justify-content-center">
+                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="hours text-center col-md-6 col-lg-4">
+                        <h2 class="mb-4 font-f">Opening Hours</h2>
+                        <p class="text-white-50">everyday</p>
+                        <p class="text-white-50">10.00 Am - 10.00 Pm</p>
+                    </div>
+                </div>
+                
+                <p>© 2022 All Rights Reserved By Free Html Templates</p>
+                <p class="pb">© Distributed By ThemeWagon</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/all.min.js"> </script>
+    <script src="js/bootstrap.bundle.min.js"> </script>
+    <script src="js/index.js"> </script>
+</body>
+</html>
